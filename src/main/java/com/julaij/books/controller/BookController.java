@@ -47,7 +47,6 @@ public class BookController {
     }
     
     
-    
     @PostMapping("books") //This is a POST 		REST API
     public ResponseEntity createBook(@RequestBody Book book) {
     	bookService.createBook(book);
